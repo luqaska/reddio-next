@@ -2,6 +2,9 @@
 // https://www.reddit.com/r/Music/wiki/musicsubreddits
 
 export const byGenre = {
+  opennic: [
+    "/r/oNICmusic"
+  ],
   classical: [
     "/r/composer",
     "/r/baroque",
