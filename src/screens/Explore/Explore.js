@@ -10,6 +10,7 @@ function Explore() {
   return (
     <Layout.Standard>
       <div className={styles.Explore}>
+        <Summary title="Original" listings={data.byGenre.opennic} />
         <Summary title="Electronic" listings={data.byGenre.electronic} />
         <Summary title="Rock / Alternative" listings={data.byGenre.rock} />
         <Summary title="Hip-Hop" listings={data.byGenre.hiphop} />
